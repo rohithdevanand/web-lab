@@ -1,0 +1,46 @@
+.container {
+    width: 80%;
+    margin: 0% auto;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2em;
+    color: navy;
+    border-bottom: 2px solid green;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: darkgoldenrod;
+    margin-bottom: 8px;
+}
+hr{
+    border: 0px;
+    height: 1px;
+    background-color:goldenrod;
+    margin: 20px 0;
+}
+#highlight{
+    background-color: yellow;
+
+}
+time[datetime]{
+    font-style: italic;
+    color: black;
+}
+img:hover{
+    transform: scale(1.1);
+    transition:transform 0.3s;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: darkorange;
+}

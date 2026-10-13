@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="cstyle1.css">
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="fullname">Full Name: </label></td>
+                <td><input type="text" id="fullname"></td>
+            </tr>
+            <tr>
+                <td><label for="email">EMail: </label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password: </label></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="confirm-password">Confirm Password: </label></td>
+                <td><input type="password" id="confirm-password"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender: </label></td>
+                <td>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" id="others" name="gender">
+                    <label for="others">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="birthdate">DOB: </label></td>
+                <td><input type="date" id="birthdate"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country: </label></td>
+                <td><select id="country" name="country" required>
+                        <option value="">select a country</option>
+                        <option value="">India</option>
+                        <option value="">United Kingdom</option>
+                        <option value="">Canada</option>
+                        <option value="">Australia</option>
+                        <option value="">Others</option>
+                    </select></td>
+
+            </tr>
+            <tr>
+                <td> <label for="intrest">Intrest</label></td>
+                <td><input type="checkbox" id="intrest">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" id="music">
+                    <label for="music">music</label>
+                    <input type="checkbox" id="reading">
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" id="travel">
+                    <label for="travel">Travel</label>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="bio">Bio: </label></td>
+                <td>
+                    <textarea id="bio" name="bio" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="register">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
